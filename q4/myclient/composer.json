@@ -1,0 +1,17 @@
+{
+  "name": "ritvick/myclient",
+    "repositories": [
+      {
+          "type": "path",
+          "url": "../myservice"
+      }
+    ],
+    "require": {
+      "ritvick/myservice": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+          "ritvick\\myservice\\": "src"
+      }
+  }
+  }
